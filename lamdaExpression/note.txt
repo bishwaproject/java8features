@@ -1,0 +1,36 @@
+Steps to make any function lambda function.
+1. Remove modifier
+2. Remove return type
+3. Remove method name
+4. Place arrow
+5. Remove return keyword
+
+
+e.g
+normal method
+private void sayHello(){
+    System.out.println("Hello World!");
+}
+()->{System.out.println("Hello world !");}
+
+
+Notes: 
+Lambda function requires at least one method parameters. And only works with functional interace.
+
+private int getStringLength(String str){
+    return str.length();
+}
+converted to:
+(str) -> str.length
+
+if only param remove small bracket
+str -> str.length
+e.g 
+
+Benefits of lamda expression:
+1. to enable function programing java.
+2. to make code more readable, maitainable and concise code.
+3. to enable parallel processing
+4. JAR file size reduction
+5. Elimination of shadow variables
+

@@ -3,6 +3,7 @@
 Lamda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method
 Example of the lambda expression is: (x,y)->x+y;
 
+
 ## 2. Stream API
 Java Stream API for performing bulk operations in collection framework
 
