@@ -34,3 +34,10 @@ Benefits of lamda expression:
 4. JAR file size reduction
 5. Elimination of shadow variables
 
+
+USE case of Lamda Expression:
+=============================
+We don't have to create seperate implentation class and create object of that class to use abstract method.
+1. In Multi-threading (e.g) directly we can use lambda expression because runable is a functional interface.
+2. Sorting collection in descending order using comparator also a functional interface.
+

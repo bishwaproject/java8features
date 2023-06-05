@@ -1,0 +1,4 @@
+Some Important notes from Java 8 new features those can be used Interface.
+Normal rule: we can not create direct object from implement class, so first requires implement class. Make object of that implement class and use the interface method.
+we can use default and static method in interface after java8.
+default and static methods requires body.
